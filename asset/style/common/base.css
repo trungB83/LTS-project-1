@@ -1,0 +1,75 @@
+:root {
+  --primary-color: #145B96;
+  --white-color: #fff;
+  --text-color: #222222;
+  --black-color: #000;
+  --background-hover: linear-gradient(#145B96, #2D9CDB);
+  --background-normal: #F8F8F8;
+
+  --height-header: 88px
+}
+
+@import "./reset.css";
+
+/*
+    import fonts
+*/
+
+@font-face {
+  font-family: "Inter-Regular";
+  src: url("../../font/Inter-Regular.ttf");
+}
+
+html {
+  font-family: 'Inter-Regular';
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  margin: 0%;
+}
+
+.Haidh__grid {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.grid {
+  width: 1600px;
+    margin: auto;
+}
+
+.wide {
+  width: 1200px;
+  margin: auto;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes Growth {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}

@@ -1,0 +1,127 @@
+/* Mobile & tablet */
+@media (max-width: 1023px) {}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .app__homepage {
+        padding: 0 10px;
+    }
+
+    .services__title {
+        margin-bottom: 10%;
+    }
+
+    .services__quality-centric-box {
+        width: 30%;
+    }
+
+    .services__quality-centric-img {
+        width: 50%;
+        top: -15%;
+        left: 26%;
+    }
+
+    .services__quality-centric-paragraph {
+        padding: 0px 18px;
+    }
+
+    .why-us__quality-centric-img {
+        position: absolute;
+        top: -15%;
+        left: 28%;
+    }
+
+    .why-us__quality-centric-box {
+        width: 32%;
+    }
+
+    .why-us__quality-centric-paragraph {
+        margin: 0px 14px 0;
+    }
+
+    .our-clients-brand-btn {
+        display: none;
+    }
+
+    .our-clients-earth-map {
+        top: 80%;
+    }
+
+    .app__our-clients-background {
+        min-height: 692px;
+
+    }
+
+    .block-achievement__content-count {
+        flex-direction: column;
+    }
+
+    .block-achievement__container {
+        padding: 2em 0;
+        display: flex;
+        position: relative;
+        align-items: center;
+    }
+
+    .block-achievement__content-count-item {}
+
+    .cooperative__menu-item {
+        width: 15%;
+    }
+
+    .cooperative__btn-left {
+        float: left;
+    }
+    .cooperative__btn-right{
+        float: right;
+    }
+    
+    .cooperative-container {
+        bottom: -14%;
+    }
+    .block-achievement {
+        height: 788px;
+    }
+    .clients-testimonials-title-main {
+        font-size: 31px;
+    }
+    .clients-testimonials-title-main::before {
+        left: 62%;
+        top: 36%;
+    }
+    .clients-testimonials-comment {
+        font-size: 10px;
+        line-height: 110%;
+        margin: 10px 15px 33px 24px;
+    }
+    .portfolio__title-main::after {
+        left: 70%;
+    }
+    .resource__blog-main-paragraph {
+        font-size: 14px;
+    }
+    .new__main-content-box {
+        max-width: 300px;
+    }
+    .new__box-slider-more {
+        font-size: 20px;
+    }
+    .new__main-content-box-paragraph {
+        font-size: 16px;
+    }
+    .new__main-content-box-footer-logo{
+        width: 10%;
+    }
+    .new__main-content-box-footer-logo a{
+
+    }
+    .block-footer__contact-list {
+        min-height: 280px;
+    }
+    .block-footer__contact-item {
+        align-items: flex-start;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {}
